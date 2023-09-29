@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script defer src="face-api.min.js"></script>
+  <script defer src="script.js"></script>
+  <style>
+    body {
+      background: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-blue-face-recognition-bio-technology-poster-background-image_195699.jpg");
+      background-repeat: no-repeat;
+      background-position: right;
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    body img{
+      height: 150px;
+      width: 130px;
+      position: absolute;
+      left: 70px;
+      top: 50px;
+    }
+
+    canvas {
+      position: absolute;
+    }
+    h1{
+      position: absolute;
+      left: 417px;
+      top: -18px;
+      font-size: 50px;
+      font-family: sans-serif;
+      color: #041147;
+    }
+  </style>
+</head>
+<body>
+  <h1>Face Detection</h1>
+  <img src="https://static.vecteezy.com/system/resources/previews/002/957/302/original/facial-recognition-icon-face-scanning-linear-design-vector.jpg">
+  <video id="video" width="720" height="560" autoplay muted></video>
+</body>
+</html>
